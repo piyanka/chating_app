@@ -1,0 +1,10 @@
+*{ margin:0 ;padding:0; box-sizing: border-box; }
+body{font:10px Helvetica,Arial;}
+form{background: #fff; padding: 13px; position: center; bottom: 0; width: 100%; }
+ input {border: 0; padding: 10px; width: 75%; margin-left: .10%; }
+ #button {color:#FFFFFF; background: #0077B5; border: none; padding: 10px; width: 8%; }
+#messages {list-style-type: none; margin: 0; padding: 0; }
+#messages li {padding: 10px 20px; }
+#messages li:nth-child(odd) { background: #eee; }
+#notifyUser { position: fixed; bottom: 32px; width: 100%; }
+

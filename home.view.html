@@ -1,0 +1,13 @@
+﻿<h1><center>Hi You're logged in!!</center></h1>
+ 	
+ 	<ul id ="messages">
+ 		<li ng-repeat="m in messages">
+ 			<b style="color:{{m.color}}"> {{m.from}}</b>: {{m.msg}} 
+ 		</li>
+ 	</ul>
+ 	<span id ="notifyUser"></span>
+ 	
+ 	<input id ="m" ng-model="message" placeholder="Type your message here...."/>
+ 	<input type="submit" id="button" ng-click="sendMessage()" value="send"/>
+ 	{{message}}
+    <a href="#!/login" class="btn btn-primary">Logout</a>
